@@ -1,1 +1,1 @@
-web: vendor/bin/ancient-harbor-53850 public/
+web: vendor/bin/heroku-php-apache2 web/

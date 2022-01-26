@@ -11,11 +11,6 @@ class WorkExperience extends Model
 {
     use HasFactory, SoftDeletes;
 
-    protected $connection = 'mongodb';
-    protected $collection = 'work_experiences';
-
-    protected $table = 'work_experiences';
-
     protected $fillable = [
         'user_id',
         'company',

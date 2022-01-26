@@ -11,6 +11,10 @@ class OrganizationAssociation extends Model
 {
     use HasFactory, SoftDeletes;
 
+    protected $connection = 'mongodb';
+    protected $collection = 'organization_associations';
+
+    protected $table = 'organization_associations';
     protected $fillable = [
         'user_id',
         'name',

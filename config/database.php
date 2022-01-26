@@ -90,6 +90,11 @@ return [
             'prefix' => '',
             'prefix_indexes' => true,
         ],
+        'mongodb_conn' => [
+            'driver' => 'mongodb',
+            'dsn'=>'mongodb+srv://hemantkumawat:ymzX3FJULrsBZz@cluster0.rbcwi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+            'database' => 'profiel_app',
+        ]
 
     ],
 
